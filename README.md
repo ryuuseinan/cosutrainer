@@ -3,6 +3,16 @@ cosu-trainer is a replacement for [FunOrange's osu-trainer](https://github.com/F
 
 You can use all of its features with commands, so you can even put the command in your DE/WM key shortcuts for easy conversion on the fly. GUI is also provided within a single executable.
 
+# My script
+```
+#!/bin/bash
+export OSU_SONG_FOLDER=/home/hinami/osu/Songs/
+cd /home/hinami/Descargas/cosu-trainer-bin/
+sudo ./osumem &
+sleep 1
+./cosu-trainer-x86_64.AppImage
+```
+
 ## Description
 `cosu-trainer` is an actual program, which can speed up/down audio/map, and edit difficulty.
 
